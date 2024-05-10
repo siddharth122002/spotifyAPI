@@ -2,7 +2,7 @@ import React from 'react'
 function Login() {
   const loginHandler=()=>{
     const clientId="a72b45adbc7b4f2cbf0e4cbb61649612";
-    const redirectUrl="http://localhost:5173/";
+    const redirectUrl="https://spotify-api-five.vercel.app/";
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope=[
       "user-read-private",
